@@ -12,7 +12,8 @@ app = Flask(__name__)
 # implications when using this.
 CORS(app)
 
-SPOTIFY_CLIENT_ID, SPOTIFY_SECRET = None, None
+SPOTIFY_CLIENT_ID = None
+SPOTIFY_SECRET = None
 
 @app.route("/")
 def hello():
